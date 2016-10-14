@@ -49,7 +49,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
-
+  .state('tab.discover',{
+    url:'/discover',
+    views:{
+      'tab-discover':{
+        templateUrl:'templates/tab-discover.html',
+        controller:''
+      }
+    }
+  })
   .state('tab.chats', {
       url: '/chats',
       views: {
